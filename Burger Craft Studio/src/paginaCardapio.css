@@ -1,0 +1,9 @@
+.cardapio-lista {
+  height: 900px;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 5px;
+  justify-items: center;
+  background-color: #1e1e1e;
+}

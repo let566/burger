@@ -1,0 +1,28 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.formpt1 {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.formpt1 input {
+  margin-top: 10px;
+  width: 150px;
+  height: 24px;
+}
+
+.formpt2 textarea {
+  width: 90%;
+  height: 80px;
+  text-align: center;
+}
+
+.formulario button {
+  width: 200px;
+  margin: auto;
+}

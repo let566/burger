@@ -1,0 +1,73 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* garante que fique por cima do resto do conteúdo */
+  background-color: white; /* importante! sem isso o conteúdo passa "por baixo" transparente */
+}
+
+.logo-container {
+  height: 150px;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 230px;
+  height: auto;
+  background-color: #f5f0f000;
+}
+
+.nav {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  gap: 300px;
+  background-color: black;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.nav-container {
+  background-color: #a26d26;
+
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 0 28px;
+}
+
+.nav a {
+  font-size: 25px;
+  color: #a26d26;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.nav-carrinho {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.nav-carrinho-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: #e63946;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
